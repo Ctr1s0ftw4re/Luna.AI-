@@ -1,62 +1,104 @@
-🌙 Luna AI | Discord Bot
-Luna is a high-energy, "bratty teen" Discord bot inspired by Resident Evil 4 (and her obsession with Leon). She isn't your typical polite assistant—she’s fun, opinionated, and uses either Groq (Llama 3.3) or Gemini 2.0 Flash Lite to power her brain.
+<div align="center">
 
-✨ Features
-Dual-Brain Support: Choose between Groq or Google Gemini via a simple config.
+# Lutt-Net
 
-Persistent Memory: She remembers your conversations (even after a restart).
+### Multiplayer Modification for *Light Up The Town*
 
-Web-Aware: She can search the internet to answer your questions.
+![Version](https://img.shields.io/badge/version-v0.08-blue)
+![Status](https://img.shields.io/badge/status-alpha-orange)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![Loader](https://img.shields.io/badge/loader-UE4SS-green)
 
-Dynamic Moods: Her personality shifts based on how you treat her.
+</div>
 
-Owner Commands: Can launch apps like Steam, Discord, or RE4 directly from your PC.
+---
 
-Bookwork Memory: Integrated logic for handling school-specific logging (SparkAI compatible).
+## Table of Contents
 
-🚀 Getting Started
-1. Prerequisites
-Ensure you have Python 3.8+ installed. You will also need the following libraries:
+- [Overview](#overview)
+- [Development Team](#development-team)
+- [Project Status](#project-status)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Feedback & Support](#feedback--support)
+- [Roadmap](#roadmap)
 
-Bash
-pip install discord.py groq google-generativeai googlesearch-python
+---
 
+## Overview
 
-2. Configuration
-Create a config.json file in the main folder:
+**Lutt-Net** is a community-developed modification that adds multiplayer functionality to *Light Up The Town*.
 
-JSON
-{
-  "DISCORD_TOKEN": "YOUR_TOKEN",
-  "AI_PROVIDER": "gemini", 
-  "GROQ_KEY": "YOUR_GROQ_KEY",
-  "GEMINI_KEY": "YOUR_GEMINI_KEY",
-  "SHADOW_ID": 1167246675828551791,
-  "SHADOW_NAME": "Shadow",
-  "JADE_ID": 0
-}
-Set AI_PROVIDER to either "groq" or "gemini".
+> **Note:** This project is in early development. Features are actively being built and tested, and builds may be unstable.
 
-3. Run Luna
-Bash
-python luna.py
-🛠️ Commands
-@Luna [question] — Chat with her.
+---
 
-!open [app name] — (Owner only) Launch PC apps like Steam or Chrome.
+## Development Team
 
-talk to jade (I will make Jade who is Lunas Sister Open Source Soon) — Triggers a specific conversation loop between bot personas.
+| Role | Developer |
+| --- | --- |
+| Lead Developer | **ShadowCanvas** (ShadowCanvas815) |
+| Assistant Developer & QA Tester | **CtrlSoftware** (Shadow_sOftw4re) |
 
-📂 Project Structure
-luna.py — The main bot logic.
+---
 
-config.json — Your private keys (DO NOT share this).
+## Project Status
 
-luna_memory.json — Where Luna stores her chat history.
+| | |
+| --- | --- |
+| **Current Version** | v0.08 |
+| **Stage** | Alpha, in active development |
 
-.gitignore — Prevents your keys from being leaked to GitHub.
+---
 
-🤝 Contributing
-Luna is open source! Feel free to fork the repo, add more "bratty" prompts, or improve the search tools.
+## Requirements
 
-Created by Archive_Software
+- *Light Up The Town* (Steam, Windows)
+- The Lutt-Net release archive (`MultiplayerModTest?.zip`)
+
+---
+
+## Installation
+
+> The paths below assume Steam is installed at `C:\SteamLibrary`. Adjust them if your library is elsewhere.
+
+1. **Download** the release archive `MultiplayerModTest?.zip` and extract it.
+
+2. **Install the mod loader files.** Copy the `ue4ss` folder from the archive into:
+
+   ```
+   C:\SteamLibrary\steamapps\common\Light Up The Town\LightUpTheTown\Binaries\Win64
+   ```
+
+3. **Enable mod injection.** Copy `dwmapi.dll` into the same folder:
+
+   ```
+   C:\SteamLibrary\steamapps\common\Light Up The Town\LightUpTheTown\Binaries\Win64
+   ```
+
+4. **Launch** the game through Steam.
+
+Additional installation steps will be published as public builds become available.
+
+---
+
+## Feedback & Support
+
+Found a bug, have a suggestion, or need help?
+
+- Open an [Issue](../../issues) on this repository.
+- When reporting a bug, please include your mod version (v0.08), steps to reproduce, and any relevant log files.
+
+---
+
+## Roadmap
+
+Further features and public builds are planned as development progresses. Watch or star this repository to stay up to date.
+
+---
+
+<div align="center">
+
+*Lutt-Net is an unofficial community project and is not affiliated with or endorsed by the developers or publishers of Light Up The Town.*
+
+</div>
