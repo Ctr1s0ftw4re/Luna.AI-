@@ -54,7 +54,7 @@
 ## Requirements
 
 - *Light Up The Town* (Steam, Windows)
-- The Lutt-Net release archive (`MultiplayerModTest?.zip`)
+- The Lutt-Net release archive (`MultiplayerMod.zip`)
 
 ---
 
