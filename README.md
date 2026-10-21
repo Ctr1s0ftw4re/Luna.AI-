@@ -62,7 +62,7 @@
 
 > The paths below assume Steam is installed at `C:\SteamLibrary`. Adjust them if your library is elsewhere.
 
-1. **Download** the release archive `MultiplayerModTest?.zip` and extract it.
+1. **Download** the release archive `MultiplayerMod.zip` and extract it.
 
 2. **Install the mod loader files.** Copy the `ue4ss` folder from the archive into:
 
