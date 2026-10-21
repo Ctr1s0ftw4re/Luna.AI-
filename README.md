@@ -38,7 +38,7 @@
 | Role | Developer |
 | --- | --- |
 | Lead Developer | **ShadowCanvas** (ShadowCanvas815) |
-| Assistant Developer & QA Tester | **CtrlSoftware** (Shadow_sOftw4re) |
+| Assistant Developer & QA Tester | **CtrlSoftware** (Ctr1_sOftw4re) |
 
 ---
 
